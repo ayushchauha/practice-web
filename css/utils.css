@@ -1,0 +1,40 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-all-center a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex-all-center  a:hover{
+    font-weight: bolder;
+}
+
+
+
+.btn{
+    /* padding: 5px 10px; */
+    width: 58px;
+    height: 22px;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid white;
+    background: var(--main-bg-color);
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.my-2{
+    margin: 16px 3px;
+}
+.my-1{
+    margin: 3px auto;
+}
+.text-center{
+    text-align: center;
+}

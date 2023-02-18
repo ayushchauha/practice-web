@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: #00ffff;
+            width: 100vw;
+            height: 100vh;
+        }
+        .box{
+            background-color: red;
+            color: white;
+            width: 20vw;height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation-name: animationonbox;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count: 5;
+            animation-direction: alternate-reverse;
+
+        }
+        @keyframes animationonbox {
+            from{
+                width: 300px;
+            }
+            to{
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           this is animation box
+        </div>
+    </div>
+</body>
+</html>
